@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:3003";
+const apiUrl = import.meta.env.VITE_API_URL;
 
 const getToken = () => localStorage.getItem("token");
 // console.log("Token:", getToken());
