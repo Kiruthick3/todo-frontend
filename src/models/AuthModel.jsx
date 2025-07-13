@@ -57,7 +57,7 @@ export const resetLink = async (email) => {
 			},
 			body: JSON.stringify({
 				email,
-				redirectUrl: window.location.origin,
+				redirectUrl: API_URL,
 			}),
 		});
 
